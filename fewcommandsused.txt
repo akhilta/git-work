@@ -11,3 +11,19 @@ fetch brings updates from remote repo but donot merge it with local repo
 pull does two things first fetch and aswell merges it with local repo
 
 -------------------------------------
+reset and revert 
+
+git reset HEAD^1  
+ it will reset to previous commit 
+git revert HEAD^1
+it will create a new commit with changes done same as previous commit
+-----------------------
+git stash save "message" 
+it will save changes in staged area files which are staged but not commited 
+
+git stash list 
+shows all stashed lists
+
+git stash pop
+apply first stashed changes to the preset commit changes
+-------------------
