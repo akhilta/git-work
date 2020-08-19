@@ -5,3 +5,9 @@ git merge Dev
 git push origin QA
 
 ---------------------------------------
+differences between fetch and pull
+
+fetch brings updates from remote repo but donot merge it with local repo
+pull does two things first fetch and aswell merges it with local repo
+
+-------------------------------------
