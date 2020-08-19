@@ -1,0 +1,7 @@
+commands used for promoting work from Dev Branch to QA brach
+---------------------------------------------------------
+git checkout QA
+git merge Dev
+git push origin QA
+
+---------------------------------------
